@@ -788,7 +788,7 @@ function MaxDps:SmartAoe(itemId)
 	elseif instanceType == 'pvp' or instanceType == 'party' then
 		-- 30 yards range
 		itemToCheck = itemId or 7734;
-	elseif instanceType == 'arena' and instanceType == 'raid' then
+	elseif instanceType == 'arena' or instanceType == 'raid' then
 		-- 35 yards range
 		itemToCheck = itemId or 18904;
 	end
